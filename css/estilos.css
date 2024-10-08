@@ -46,7 +46,7 @@ h1, h2, h3 {
 }
 
 .iconos img {
-    width: 150px;
+    width: 250px;
     object-fit: cover;
     margin-right: 20px;
 }
@@ -60,5 +60,8 @@ h1, h2, h3 {
     .foto {
         margin-right: 0; /* Elimina el margen derecho */
         margin-bottom: 20px; /* Agrega margen inferior para separar la imagen del texto */
+    }
+    .iconos img {
+        width: 150px;
     }
 }
