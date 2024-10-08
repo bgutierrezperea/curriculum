@@ -3,41 +3,62 @@ body {
     margin: 40px;
     background-color: #d7d4d4;
 }
+
 .container {
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 .header {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
 }
+
 .foto {
     margin-right: 20px;
 }
+
 .foto img {
     border-radius: 50%;
     width: 150px;
     height: 150px;
     object-fit: cover;
 }
+
 .info {
     flex: 1;
 }
-.contacto, .experiencia, .educacion, .objetivos, .aptitudes, .idioma, .cmp{
+
+.contacto, .experiencia, .educacion, .objetivos, .aptitudes, .idioma, .cmp {
     margin-bottom: 20px;
     margin-right: 20px;
 }
+
 .contacto p, .experiencia p, .educacion p, .objetivos p, .aptitudes p, .idioma p {
     line-height: 1.6;
 }
+
 h1, h2, h3 {
     color: #333;
 }
+
 .iconos img {
     width: 150px;
     object-fit: cover;
     margin-right: 20px;
+}
+
+/* Modificaciones para dispositivos móviles */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column; /* Apila los elementos en columna */
+    }
+
+    .foto {
+        margin-right: 0; /* Elimina el margen derecho */
+        margin-bottom: 20px; /* Agrega margen inferior para separar la imagen del texto */
+    }
 }
