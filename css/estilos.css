@@ -27,6 +27,21 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    margin-right: 50px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color:   
+ #333;
+}
+
+
 
 a {
     color: #333; /* Cambia el color por el que desees */
@@ -85,4 +100,10 @@ h1, h2, h3 {
     .iconos img {
         width: 150px;
     }
+    nav {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    
 }
