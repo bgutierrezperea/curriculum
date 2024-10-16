@@ -52,6 +52,11 @@ a {
     align-items: center;
     margin-bottom: 20px;
 }
+.columnas {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
 
 .foto {
     margin-right: 20px;
@@ -89,7 +94,7 @@ h1, h2, h3 {
 
 /* Modificaciones para dispositivos móviles */
 @media (max-width: 768px) {
-    .header {
+    .header, .columnas {
         flex-direction: column; /* Apila los elementos en columna */
     }
 
